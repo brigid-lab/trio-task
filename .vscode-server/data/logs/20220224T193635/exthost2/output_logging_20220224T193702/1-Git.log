@@ -1,0 +1,18 @@
+[2022-02-24T19:37:03.041Z] Validating found git in: git
+[2022-02-24T19:37:03.125Z] Using git 2.25.1 from git
+[2022-02-24T19:37:03.224Z] > git rev-parse --git-dir [33ms]
+[2022-02-24T19:37:03.230Z] Open repository: /home/azureuser/dockerfile_exercises/duo-task
+[2022-02-24T19:37:03.257Z] > git symbolic-ref --short HEAD [11ms]
+[2022-02-24T19:37:03.261Z] > git rev-parse --git-dir [10ms]
+[2022-02-24T19:37:03.263Z] Open repository: /home/azureuser/dockerfile_exercises/multi-stage-build-exercise
+[2022-02-24T19:37:03.284Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [24ms]
+[2022-02-24T19:37:03.293Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-02-24T19:37:03.294Z] > git symbolic-ref --short HEAD [11ms]
+[2022-02-24T19:37:03.304Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [7ms]
+[2022-02-24T19:37:03.317Z] > git remote --verbose [26ms]
+[2022-02-24T19:37:03.359Z] > git remote --verbose [43ms]
+[2022-02-24T19:37:03.359Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [51ms]
+[2022-02-24T19:37:03.379Z] > git config --get commit.template [22ms]
+[2022-02-24T19:37:03.383Z] > git config --get commit.template [10ms]
+[2022-02-24T19:37:03.673Z] > git ls-files --stage -- /home/azureuser/dockerfile_exercises/duo-task/Dockerfile [3ms]
+[2022-02-24T19:37:03.678Z] > git cat-file -s 59183c098286c1abf3bb57bd9f2f454426647482 [2ms]

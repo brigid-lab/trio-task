@@ -1,0 +1,20 @@
+[2022-02-25T13:36:27.875Z] Validating found git in: git
+[2022-02-25T13:36:27.909Z] Using git 2.25.1 from git
+[2022-02-25T13:36:27.972Z] > git rev-parse --git-dir [21ms]
+[2022-02-25T13:36:27.980Z] Open repository: /home/azureuser/dockerfile_exercises/multi-stage-build-exercise
+[2022-02-25T13:36:28.020Z] > git symbolic-ref --short HEAD [20ms]
+[2022-02-25T13:36:28.027Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [4ms]
+[2022-02-25T13:36:28.043Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+[2022-02-25T13:36:28.046Z] > git remote --verbose [12ms]
+[2022-02-25T13:36:28.060Z] > git config --get commit.template [4ms]
+[2022-02-25T13:38:10.713Z] > git symbolic-ref --short HEAD [2ms]
+[2022-02-25T13:38:10.718Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [1ms]
+[2022-02-25T13:38:10.724Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-02-25T13:38:10.726Z] > git remote --verbose [3ms]
+[2022-02-25T13:38:10.733Z] > git config --get commit.template [2ms]
+[2022-02-25T13:38:45.228Z] > git ls-files --stage -- /home/azureuser/dockerfile_exercises/multi-stage-build-exercise/Dockerfile [5ms]
+[2022-02-25T13:39:51.551Z] > git symbolic-ref --short HEAD [2ms]
+[2022-02-25T13:39:51.555Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [2ms]
+[2022-02-25T13:39:51.562Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-02-25T13:39:51.563Z] > git remote --verbose [2ms]
+[2022-02-25T13:39:51.570Z] > git config --get commit.template [2ms]

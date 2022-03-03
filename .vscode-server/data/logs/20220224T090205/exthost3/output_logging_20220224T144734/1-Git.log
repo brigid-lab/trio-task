@@ -1,0 +1,15 @@
+[2022-02-24T14:47:34.384Z] Validating found git in: git
+[2022-02-24T14:47:34.425Z] Using git 2.25.1 from git
+[2022-02-24T14:47:34.491Z] > git rev-parse --git-dir [23ms]
+[2022-02-24T14:47:34.499Z] Open repository: /home/azureuser/dockerfile_exercises/multi-stage-build-exercise
+[2022-02-24T14:47:34.549Z] > git symbolic-ref --short HEAD [15ms]
+[2022-02-24T14:47:34.557Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [5ms]
+[2022-02-24T14:47:34.575Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-02-24T14:47:34.577Z] > git remote --verbose [6ms]
+[2022-02-24T14:47:34.591Z] > git config --get commit.template [8ms]
+[2022-02-24T14:47:38.874Z] > git ls-files --stage -- /home/azureuser/dockerfile_exercises/multi-stage-build-exercise/Dockerfile [3ms]
+[2022-02-24T14:48:17.236Z] > git symbolic-ref --short HEAD [2ms]
+[2022-02-24T14:48:17.240Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [2ms]
+[2022-02-24T14:48:17.248Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-02-24T14:48:17.250Z] > git remote --verbose [3ms]
+[2022-02-24T14:48:17.259Z] > git config --get commit.template [3ms]

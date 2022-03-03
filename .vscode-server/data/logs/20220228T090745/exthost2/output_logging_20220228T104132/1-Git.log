@@ -1,0 +1,32 @@
+[2022-02-28T10:41:33.210Z] Validating found git in: git
+[2022-02-28T10:41:33.249Z] Using git 2.25.1 from git
+[2022-02-28T10:41:33.381Z] > git rev-parse --git-dir [14ms]
+[2022-02-28T10:41:33.387Z] Open repository: /home/azureuser/dockerfile_exercises/to-do-example
+[2022-02-28T10:41:33.426Z] > git symbolic-ref --short HEAD [20ms]
+[2022-02-28T10:41:33.429Z] > git rev-parse --git-dir [19ms]
+[2022-02-28T10:41:33.431Z] Open repository: /home/azureuser/dockerfile_exercises/duo-task
+[2022-02-28T10:41:33.443Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [15ms]
+[2022-02-28T10:41:33.482Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+[2022-02-28T10:41:33.489Z] > git symbolic-ref --short HEAD [8ms]
+[2022-02-28T10:41:33.492Z] > git remote --verbose [40ms]
+[2022-02-28T10:41:33.502Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [10ms]
+[2022-02-28T10:41:33.511Z] > git rev-parse --git-dir [25ms]
+[2022-02-28T10:41:33.513Z] Open repository: /home/azureuser/dockerfile_exercises/multi-stage-build-exercise
+[2022-02-28T10:41:33.532Z] > git remote --verbose [22ms]
+[2022-02-28T10:41:33.533Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+[2022-02-28T10:41:33.537Z] > git config --get commit.template [36ms]
+[2022-02-28T10:41:33.546Z] > git symbolic-ref --short HEAD [14ms]
+[2022-02-28T10:41:33.555Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [6ms]
+[2022-02-28T10:41:33.562Z] > git config --get commit.template [17ms]
+[2022-02-28T10:41:33.563Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-02-28T10:41:33.569Z] > git remote --verbose [8ms]
+[2022-02-28T10:41:33.575Z] > git rev-parse --git-dir [8ms]
+[2022-02-28T10:41:33.577Z] Open repository: /home/azureuser/dockerfile_exercises/trio-task
+[2022-02-28T10:41:33.590Z] > git config --get commit.template [16ms]
+[2022-02-28T10:41:33.602Z] > git symbolic-ref --short HEAD [12ms]
+[2022-02-28T10:41:33.609Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [5ms]
+[2022-02-28T10:41:33.620Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-02-28T10:41:33.621Z] > git remote --verbose [6ms]
+[2022-02-28T10:41:33.638Z] > git config --get commit.template [10ms]
+[2022-02-28T10:41:34.027Z] > git ls-files --stage -- /home/azureuser/dockerfile_exercises/to-do-example/trying to trigger webhook [4ms]
+[2022-02-28T10:41:34.031Z] > git cat-file -s e14f917eed3b8f68cced87db397a2dc66a434360 [2ms]

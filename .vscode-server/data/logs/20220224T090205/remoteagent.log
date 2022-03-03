@@ -1,0 +1,38 @@
+[2022-02-24 09:02:06.080] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-02-24 09:02:06.080] [remoteagent] [info] Extension host agent started.
+[2022-02-24 09:02:06.150] [remoteagent] [info] [127.0.0.1][2c069f39][ManagementConnection] New connection established.
+[2022-02-24 09:02:06.252] [remoteagent] [info] [127.0.0.1][d91f74f0][ExtensionHostConnection] New connection established.
+[2022-02-24 09:02:06.420] [remoteagent] [info] [127.0.0.1][d91f74f0][ExtensionHostConnection] <1455> Launched Extension Host Process.
+[2022-02-24 09:57:18.523] [remoteagent] [info] [127.0.0.1][d5057e3e][ManagementConnection] New connection established.
+[2022-02-24 09:57:18.559] [remoteagent] [info] [127.0.0.1][55c2eac1][ExtensionHostConnection] New connection established.
+[2022-02-24 09:57:18.564] [remoteagent] [info] [127.0.0.1][55c2eac1][ExtensionHostConnection] <12358> Launched Extension Host Process.
+[2022-02-24 10:10:07.112] [remoteagent] [info] [127.0.0.1][2c069f39][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-02-24 10:10:07.134] [remoteagent] [info] [127.0.0.1][d91f74f0][ExtensionHostConnection] <1455> Extension Host Process exited with code: 0, signal: null.
+[2022-02-24 10:31:45.223] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/azureuser/dockerfile_exercises)
+[2022-02-24 10:31:45.223] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-02-24 14:47:32.596] [remoteagent] [info] [127.0.0.1][20f757d0][ManagementConnection] New connection established.
+[2022-02-24 14:47:32.674] [remoteagent] [info] [127.0.0.1][1190f62e][ExtensionHostConnection] New connection established.
+[2022-02-24 14:47:32.683] [remoteagent] [info] [127.0.0.1][1190f62e][ExtensionHostConnection] <19787> Launched Extension Host Process.
+[2022-02-24 17:06:17.986] [remoteagent] [info] [127.0.0.1][20f757d0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-02-24 17:06:17.989] [remoteagent] [info] [127.0.0.1][d5057e3e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-02-24 18:31:33.425] [remoteagent] [info] [127.0.0.1][d5057e3e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-02-24 18:31:33.425] [remoteagent] [info] [127.0.0.1][20f757d0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-02-24 18:31:33.426] [remoteagent] [info] [127.0.0.1][20f757d0][ManagementConnection] The client has reconnected.
+[2022-02-24 18:31:33.525] [remoteagent] [info] [127.0.0.1][1190f62e][ExtensionHostConnection] The client has reconnected.
+[2022-02-24 18:31:37.107] [remoteagent] [info] [127.0.0.1][d5057e3e][ManagementConnection] The client has reconnected.
+[2022-02-24 18:31:37.218] [remoteagent] [info] [127.0.0.1][55c2eac1][ExtensionHostConnection] The client has reconnected.
+[2022-02-24 18:34:16.874] [remoteagent] [info] [127.0.0.1][20f757d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-02-24 18:34:16.896] [remoteagent] [info] [127.0.0.1][1190f62e][ExtensionHostConnection] <19787> Extension Host Process exited with code: 0, signal: null.
+[2022-02-24 18:34:20.859] [remoteagent] [info] [127.0.0.1][d5057e3e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-02-24 18:34:20.877] [remoteagent] [info] [127.0.0.1][55c2eac1][ExtensionHostConnection] <12358> Extension Host Process exited with code: 0, signal: null.
+[2022-02-24 18:34:20.877] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-02-24 18:39:20.878] [remoteagent] [info] Last EH closed, shutting down

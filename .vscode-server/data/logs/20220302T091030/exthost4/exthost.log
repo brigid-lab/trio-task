@@ -1,0 +1,16 @@
+[2022-03-02 12:57:54.680] [exthost] [info] Extension host with pid 25272 started
+[2022-03-02 12:57:54.705] [exthost] [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/47df8d5a20f24a42c873433746755447/vscode.lock': Lock acquired.
+[2022-03-02 12:57:54.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-02 12:57:54.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-02 12:57:54.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-03-02 12:57:54.881] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-02 12:57:55.055] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-02 12:57:55.076] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-02 12:57:55.081] [exthost] [info] Eager extensions activated
+[2022-03-02 12:58:33.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-03-02 12:58:33.304] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-03-02 12:58:33.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-03-02 12:58:57.116] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-03-02 16:23:45.033] [exthost] [info] extension host terminating: received terminate message from renderer
+[2022-03-02 16:23:45.077] [exthost] [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/47df8d5a20f24a42c873433746755447/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-03-02 16:23:45.101] [exthost] [info] Extension host with pid 25272 exiting with code 0
